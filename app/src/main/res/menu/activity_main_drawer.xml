@@ -26,7 +26,7 @@
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/about"
-            android:title="About" />
+            android:title="License" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/credit"
