@@ -19,18 +19,8 @@ import pdftoword.pdfeditor.edit.pdf.R;
 
 public class AboutDialogFragment extends DialogFragment {
 
-private String HTML_TEXT="<html>  \n" +
-        "                <title>Welcome</title>  \n" +
-        "                <body>  \n" +
-        "                <font color=\\\\red\\\\><center>Privacy Policy<br/></center></font>  \n" +
-        "                 This app lets you to make your task easier for extracting any text form pdf and lets you edit those words. After we extract tect from pdf, we let you to edit those words. After converting those words you can save those to file. After that we fetch those files from storage and let you edit those files again. We do not take any ownership of use/reuse of any files you use here. We take file storage permission with you so that we can save any text you edited here. Also the storage permission is required because we let you to view the files you edited. We also use third party ad networks here to show you ad and those network use the data according to their way to show you the relevant ads. We use internet permissions.\n" +
-        "                  \n" +
-        "                  \n" +
-        "                      \n" +
-        "                  \n" +
-        "                </body>  \n" +
-        "                  \n" +
-        "                </html>";
+private String HTML_TEXT="" +
+        "";
 
   private Button btn;
 
