@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+          <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/letter"
+            android:title="Converted" />
+
+    <item
+            android:id="@+id/pdf"
+            android:icon="@drawable/download"
+            android:title="Download PDF Search App" />
+
+    <item
+            android:id="@+id/p"
+            android:icon="@drawable/pregnant"
+            android:title="Other App" />
+
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/credit"
+            android:title="Credits" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/rate"
+                android:title="Rate" />
+
+</menu>
