@@ -7,8 +7,7 @@
     <string name="action_settings">Settings</string>
 
 
-    <!--test-->
-    <!--My personal ad Id has been replaced with test ad id of admob for security reasons.-->
+    <!--test ad id-->
     <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
     <string name="inter">ca-app-pub-3940256099942544/1033173712</string>
 
