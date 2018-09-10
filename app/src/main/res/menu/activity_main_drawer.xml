@@ -15,12 +15,12 @@
     <item
             android:id="@+id/pdf"
             android:icon="@drawable/download"
-            android:title="Download PDF Search App" />
+            android:title="Download PDF Search" />
 
     <item
             android:id="@+id/p"
-            android:icon="@drawable/pregnant"
-            android:title="Other App" />
+            android:icon="@drawable/ic_recorder"
+            android:title="Download Screen Recorder App" />
 
 
         <item

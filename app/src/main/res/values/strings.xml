@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pdf to Word</string>
+    <string name="app_name">Pdf Editor</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -8,8 +8,9 @@
 
 
     <!--test ad id-->
-    <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="inter">ca-app-pub-3940256099942544/1033173712</string>
+    <!--<string name="banner">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="inter">ca-app-pub-3940256099942544/1033173712</string>-->
+
 
 
 </resources>

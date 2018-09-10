@@ -94,7 +94,7 @@ public class MainActivity extends BaseActivity
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=pdf.anypdf.pdfsearcher")));
 
         } else if (id == R.id.p) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=embarazo.pregnant.pregnancy")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=com.screen.recorder.capture.freevideo")));
 
         }
 
@@ -110,13 +110,7 @@ public class MainActivity extends BaseActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            if (shouldExit) {
                 finish();
-            } else {
-                showInter(false);
-                shouldExit = true;
-                shouldShowBackMessage = true;
-            }
 
         }
     }

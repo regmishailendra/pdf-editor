@@ -6,14 +6,14 @@ android {
         applicationId "pdftoword.pdfconverter"
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 4
-        versionName "1.0.4"
+        versionCode 8
+        versionName "1.0.8"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

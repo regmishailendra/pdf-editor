@@ -116,9 +116,11 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (shouldShowBackMessage) {
-            Toast.makeText(this, "Press back to exit", Toast.LENGTH_SHORT).show();
-        }
+//        if (shouldShowBackMessage) {
+//            Toast.makeText(this, "Press back to exit", Toast.LENGTH_SHORT).show();
+//        }
+
+
     }
 
 

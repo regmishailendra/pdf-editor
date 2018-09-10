@@ -48,7 +48,11 @@ public class EditActivity extends BaseActivity {
         BufferedReader reader = null;
         et.setScroller(new Scroller(this));
         et.setVerticalScrollBarEnabled(true);
-        et.setMovementMethod(new ScrollingMovementMethod());
+        try {
+            et.setMovementMethod(new ScrollingMovementMethod());
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         try {
             reader = new BufferedReader(
                     new InputStreamReader(new FileInputStream(file)));
