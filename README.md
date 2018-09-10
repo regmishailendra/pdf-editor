@@ -32,6 +32,7 @@ The interactive user interfaces in modified source and object code versions of t
 In accordance with Section 7(b) of the GNU Affero General Public License, you must retain the producer line in every PDF that is created or manipulated using iText.
 
 You can be released from the requirements of the license by purchasing a commercial license. Buying such a license is mandatory as soon as you develop commercial activities involving the iText software without disclosing the source code of your own applications. These activities include: offering paid services to customers as an ASP, serving PDFs on the fly in a web application, shipping iText with a closed source product."
+Put your personal admob ad id there and your ad will be served.
 
 
 Full text of the AGPL - GNU AFFERO GENERAL PUBLIC LICENSE
