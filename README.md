@@ -1,9 +1,14 @@
 
-To use this software you need android studio. I built this software in android studio
-at "https://developer.android.com/studio/"
+To use this software you need android studio installed correctly. I built this software in android studio
+at "https://developer.android.com/studio/". Refer there about installing android studio correctly.
+I have kept all dependency in gradle section in file.
 
-You need to install Jdk 7 or more or tick option of use embedded jdk.
+You need to install Jdk 8(might work with Jdk 7 too) or more or tick option of use embedded jdk.
 After it is installed clone this repo to your studio from the options shown in android studio.
+
+If you got sync error and a error with error code 216, goto File -> Project Structure -> SDK location
+1) If ticking 'Use embedded JDK' does not work
+2) Untick it and choose the JDK path there which is under Java folder in your pc and point in JDK location
 
 Great!!!
 You installed the project perfectly.
@@ -27,6 +32,7 @@ The interactive user interfaces in modified source and object code versions of t
 In accordance with Section 7(b) of the GNU Affero General Public License, you must retain the producer line in every PDF that is created or manipulated using iText.
 
 You can be released from the requirements of the license by purchasing a commercial license. Buying such a license is mandatory as soon as you develop commercial activities involving the iText software without disclosing the source code of your own applications. These activities include: offering paid services to customers as an ASP, serving PDFs on the fly in a web application, shipping iText with a closed source product."
+Put your personal admob ad id there and your ad will be served.
 
 
 Full text of the AGPL - GNU AFFERO GENERAL PUBLIC LICENSE
